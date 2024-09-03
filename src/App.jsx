@@ -1,9 +1,9 @@
-import { Header } from "./assets/components/Header";
-import { SocialNetworkButton } from "./assets/components/SocialNetworkButton";
+import { Header } from "./components/Header";
+import { SocialNetworkButton } from "./components/SocialNetworkButton";
 
 export const App = () => {
 	return (
-		<section className="bg-ct-grey-800 rounded-lg p-5 text-sm">
+		<section className="bg-ct-grey-800 rounded-lg px-5 py-6 text-sm">
 			<Header />
 			<SocialNetworkButton />
 		</section>
